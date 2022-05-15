@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brito Enzo Exequiel</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <LINK REL=StyleSheet HREF="index.css" TYPE="text/css" MEDIA=screen>
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="dimens" >
+            <div id="A">
+                <div id="labelM">Crear Matriz A</div>
+                <br>
+                <form name="dimA">
+                    <label>Filas</label><br>
+                    <input type="text" id="text" class="campM" style="text-align: center;"><br>
+                    <label>Columnas</label><br>
+                    <input type="text" id="text" class="campM" style="text-align: center;">
+                </form>
+            </div>
+            <br>
+            <div id="B">
+                <div id="labelM">Crear Matriz B</div>
+                <br>
+                <form name="dimB">
+                    <label>Filas</label><br>
+                    <input type="text" id="text" class="campM" style="text-align: center;"><br>
+                    <label>Columnas</label><br>
+                    <input type="text" id="text" class="campM" style="text-align: center;">
+                </form>
+            </div>
+        </div>
+        <br>
+        <input type="button" id="btnCrear" value="GENERAR" onclick="Comprobar ()" name="crear">
+        <div class="text-center">
+            <br>
+            <div role="alert" id="mostrarAlerta" class=""></div>
+        </div>
+   
+        <div id="devep" style="text-align: center;">
+
+        </div>
+        <div id="devepRes" style="text-align: center;">
+
+        </div>
+    </div>
+    <br>
+
+
+
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
